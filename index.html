@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Son Duyen</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/faviconL.jpg">
+    <link rel="stylesheet" href="default.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <style type="text/css">
+    body{
+    background: url('img/background6.jpg') no-repeat center fixed;
+    }
+    </style>
+  </head>
+  <body>
+    <audio autoplay="autopaly">
+          <source src="love/music/I-Do-911.mp3" type="audio/mp3"/>
+      </audio>  
+    <div id="snowspawner"></div>
+    <div id="containercold">
+      <div id="centercold">
+        <marquee id="marqueeline" scrollamount="2" direction="up" loop="forever" scrolldelay="0" behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()" >
+          <p id="font">  Hi Duyên.<br>
+              Biết Duyên lâu rồi mà giờ mới có dịp tặng quà cho Duyên ha? Hiện tại thì Sơn chẳng biết tặng Duyên gì ngoài cái này, Sơn đã rất cố gắng, hi vọng Duyên sẽ thích nó.<br>
+              Duyên biết không, từ lâu Sơn đã thích Duyên rồi, nhưng ngại không dám nói. Cũng không biết từ bao giờ, trong tâm trí Sơn chỉ có Duyên thôi, từng cử chỉ, điệu cười, giọng nói, nhắn mày, mím môi,.... tất cả đều in sâu trong tâm trí Sơn, đêm nào trước khi đi ngủ hình bóng của Duyên cũng ngập tràn trong đầu Sơn. Cũng không biết nói thế nào, trước giờ Sơn không phải là người văn vẻ, nhưng đây thực sự là những lời tự đáy lòng của Sơn. Tại vì khi đứng trước mặt Duyên, Sơn run lắm, nên chẳng thể thốt thành lời được, nên đành mượn cớ này để nói ra tâm tư của Sơn cho Duyên hiểu, hi vọng Duyên sẽ đáp lại...(continue) 
+            </p>
+        </marquee>
+        <div id="footercold">
+            <div class="titlecold">
+              <a href="love/loveDuyen.html"><i>next here ===></i></a>
+            </div>
+          </div>
+      </div>
+      <div id="leftcold" heigh="800">
+        <marquee id="marqueecold" scrollamount="4" direction="up" loop="forever" scrolldelay="4" onmouseover="this.stop()" onmouseout="this.start()">
+          <img src="Duyen/1.jpg" width="200" height="200"/><br> 
+          <img src="Duyen/2.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/3.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/4.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/5.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/6.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/7.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/8.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/9.jpg" width="200" height="200"/> <br>
+          <!-- <img src="Duyen/10.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/11.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/12.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/13.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/14.jpg" width="200" height="200"/> <br> -->
+        </marquee>
+      </div>
+      <div id="rightcold">
+        <marquee id="marqueecold" scrollamount="4" direction="up" loop="forever" scrolldelay="4" onmouseover="this.stop()" onmouseout="this.start()">
+          <img src="Duyen/1.jpg" width="200" height="200"/><br> 
+          <img src="Duyen/2.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/3.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/4.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/5.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/6.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/7.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/8.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/9.jpg" width="200" height="200"/> <br>
+          <!-- <img src="Duyen/10.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/11.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/12.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/13.jpg" width="200" height="200"/> <br>
+          <img src="Duyen/14.jpg" width="200" height="200"/> <br> -->
+        </marquee>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="letItSnow.min.js" type="text/javascript" ></script>
+  
+    <script>
+      $(function(){
+	     $('#snowspawner').letItSnow({
+
+  // color of the snowflakes
+      color: '#fff',
+
+  // max / min size
+      size_min: 1,
+      size_max: 100,
+
+  // z-index
+      zindex: 99999,
+
+  // max amount of snowflakes
+      maxcount: 50,
+
+  // horizontal movement of snowflakes
+      wind: 200,
+
+  // easing effects
+      easing_x: "easeInBack",
+      easing_y: "easeInCubic",
+
+  // aniamtion speed
+      fall_time: 5000
+      });
+    });
+    </script>
+  </body>
+</html>

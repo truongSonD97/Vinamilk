@@ -1,0 +1,102 @@
+body{
+	background-size:cover;
+	font-family: Verdana, sans-serif;
+	overflow: hidden;
+
+}
+
+/*index*/
+ #footerindex{
+ 			  width: 600px;
+        font-size:18px;
+        text-align:center;
+        padding:15px;
+        margin-left: auto;
+ 			  margin-right: auto;
+        }
+
+
+.titleindex{	
+		    height: 50px;
+        font-size:18px;
+        padding-top:590px;
+        padding-bottom:15px;
+        }
+  
+
+/*loichuc*/
+#containercold{
+        position: relative;
+        height: 800px;
+        margin-left: 100px;
+        margin-right: 10px;
+        }
+#centercold{    
+        position: relative;
+        margin-left: 270px;
+        margin-right: 300px;
+        width: 600px;
+        height: 10px;
+        font-size:18px;
+        padding-top:0px;
+        }
+#leftcold{  
+        position: relative;
+        float: left;
+        width: 300px;
+        padding-top:0px;
+        padding-bottom:15px;
+        }
+#rightcold{ 
+        position: relative;
+        float: right;
+        width: 300px;
+        padding-top:0px;
+        padding-bottom:15px;
+        }
+#containerimg{
+            margin-left: 50px;
+}
+ #footercold{
+        width: 600px;
+        font-size:18px;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+.titlecold{ 
+        height: 50px;
+        font-size:18px;
+        padding-top:50px;
+        padding-bottom:15px;
+        }
+  
+#marqueecold{
+        height: 600px;
+        }
+#marqueeline{
+        height: 560px;
+}
+/*clickhinh*/
+p.one{
+        border-style: hidden;
+        border-width: 2px;
+        width: 400px;
+}
+
+  
+#fonthot{
+        font-size: 20px;
+        font-family: Arial;
+        color: #14001a;
+}
+#font{
+        font-family: Arial;
+        color: #551a8b;
+}
+#fontindex{
+        font-family: Arial;
+        color: #9933ff;
+}
